@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.idea/.idea.WorkTimeRegistrationApp/.idea
+/.vs
+/WorkTimeRegistrationApi/bin
+/WorkTimeRegistrationApi/obj
+/WorkTimeRegistrationApp/bin
+/WorkTimeRegistrationApp/obj
+/WorkTimeRegistrationShared/bin
+/WorkTimeRegistrationShared/obj
