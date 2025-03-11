@@ -1,0 +1,21 @@
+﻿<maui:MauiWinUIApplication
+    x:Class="WorkTimeRegistrationApp.WinUI.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WorkTimeRegistrationApp.WinUI"
+    xmlns:maui="using:Microsoft.Maui">
+    <maui:MauiWinUIApplication.Resources>
+        <DataTemplate x:Key="MauiAppTitleBarTemplate">
+            <Grid>
+                <Border Margin="0,0,0,0" Background="Black">
+                    <TextBlock
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        FontWeight="Bold"
+                        Foreground="#808080"
+                        Text="Rejestracja Czasu Pracy" />
+                </Border>
+            </Grid>
+        </DataTemplate>
+    </maui:MauiWinUIApplication.Resources>
+</maui:MauiWinUIApplication>

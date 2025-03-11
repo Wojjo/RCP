@@ -1,0 +1,6 @@
+@WorkTimeRegistrationApi_HostAddress = http://localhost:5207
+
+GET {{WorkTimeRegistrationApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
